@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Note Me Up</string>
+    <string name="title_diarynote_list">Diarynote</string>
+    <string name="title_diarynote_detail">Diarynote Detail</string>
+    <string name="title_activity_my__diary">My_DiaryActivity</string>
+
+
+    <string name="action_settings">Settings</string>
+</resources>

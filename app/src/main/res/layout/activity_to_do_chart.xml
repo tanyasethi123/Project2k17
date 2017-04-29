@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tanya123.project2k17.ToDo_chart">
+
+    <GridLayout
+        android:layout_width="368dp"
+        android:layout_height="465dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/gridLayout"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+           android:layout_column="0"
+            android:layout_row="0"
+            android:layout_height="232.5dp"
+            android:layout_width="184dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="URGENT AND IMPORTANT"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/UAI"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="184dp"
+            android:layout_height="232.5dp"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOT URGENT AND IMPORTANT"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/NUAI"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="0"
+            android:layout_row="1"
+            tools:layout_editor_absoluteY="8dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_width="184dp"
+            android:layout_height="232.5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="URGENT AND NOT IMPORTANT"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/UANI"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_width="184dp"
+            android:layout_height="232.5dp"
+            tools:layout_editor_absoluteY="8dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOT URGENT AND NOT IMPORTANT"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/NUANI"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/todosave"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="SAVE"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="473dp"
+        android:layout_below="@+id/gridLayout"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

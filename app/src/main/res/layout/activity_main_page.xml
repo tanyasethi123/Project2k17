@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:cotext="com.example.tanya123.project2k17.main_page">
+
+
+    <Button
+        android:id="@+id/MyDiary"
+        android:layout_width="171sp"
+        android:layout_height="171sp"
+        android:background="@drawable/onenote"
+        android:fontFamily="casual"
+        android:text="MY DIARY"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/to_do"
+        android:layout_alignEnd="@+id/to_do"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/to_do"
+        android:layout_width="171sp"
+        android:layout_height="171sp"
+        android:background="@drawable/onenote"
+        android:fontFamily="casual"
+        android:text="TO-DO"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="21dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:fontFamily="sans-serif"
+        android:text="SELECT ONE"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/MyDiary"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+

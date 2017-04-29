@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tanya123.project2k17">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/notemeup"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".welcome_page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main_page"
+            android:theme="@style/customTheme." />
+        <activity
+            android:name=".MY_DIARY"
+            android:label="@string/title_activity_my__diary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MyDiary_text" />
+        <activity android:name=".MyDiary_list" />
+
+        <activity android:name=".MyDiary_clicklist" />
+        <activity android:name=".To_do" />
+        <activity android:name=".ToDo_chart" />
+        <activity android:name=".Todo_open"></activity>
+    </application>
+
+</manifest>
